@@ -1,18 +1,5 @@
-blue = #475cd1
-red = #be2525
-
-border-radius(r = 5px)
-  -webkit-border-radius r
-  border-radius r
-
-cf()
-  zoom 1
-  &:after
-  &:before
-    content ""
-    display table
-  &:after
-    clear both
+@import "styl/variables"
+@import "styl/mixins"
 
 body
   background blue
